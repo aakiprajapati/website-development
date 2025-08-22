@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Category - Story Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Popular Destinations - London Travel</title>
+  <meta name="description" content="Explore the most popular destinations in London, from historic landmarks to vibrant cultural spots.">
+  <meta name="keywords" content="London, travel, destinations, tourism">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -26,17 +26,187 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Story
-  * Template URL: https://bootstrapmade.com/story-bootstrap-blog-template/
-  * Updated: Aug 11 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Custom CSS for London Theme -->
+  <style>
+
+    :root {
+      --primary-color: #3c4f6b; /* Cool slate blue for London */
+      --secondary-color: #6c757d; /* Grey for urban feel */
+      --background-color: #e8ecef; /* Light grey background */
+      --text-color: #343a40; /* Dark grey text */
+      --accent-color: #adb5bd; /* Lighter grey for accents */
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .header {
+      background-color: var(#FFFFFF);
+    }
+
+    .header .logo h1,
+    .header .navmenu a {
+      color: #000000;
+    }
+
+  .page-title {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('assets/img/blog/pexels-2693027-10873082.jpg');
+  background-size: 100%;       /* start at normal size */
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 10s ease-in-out; /* smooth zoom */
+}
+
+.page-title:hover {
+  background-size: 110%; /* zoom in 10% when hovered */
+}
+
+.page-title .swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.page-title .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-title::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.page-title .heading {
+  position: relative;
+  z-index: 1;
+}
+.page-title .heading-title {
+  font-size: 3.5rem; /* Larger title */
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.page-title p {
+  font-size: 1.5rem; /* Larger description */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.page-title .video-link {
+  margin-top: 20px;
+}
+.page-title .video-link a {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.page-title .video-link a:hover {
+  background-color: var(--secondary-color);
+}
+
+    .destination-card {
+      background-color: #ffffff;
+      border: 1px solid var(--accent-color);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .destination-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .destination-card h3 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin: 15px;
+    }
+
+    .destination-card p {
+      font-size: 1rem;
+      color: var(--text-color);
+      margin: 0 15px 15px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      
+      color: #ffffff;
+      padding: 20px 0;
+      font-size: 0.9rem;
+    }
+
+    .footer h5 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .footer a {
+      color: var(--accent-color);
+      font-size: 0.85rem;
+    }
+
+    .footer a:hover {
+      color: #ffffff;
+    }
+
+    .footer .social-links a {
+      font-size: 1rem;
+      margin-right: 8px;
+    }
+
+    .footer .row {
+      margin-bottom: 0;
+    }
+
+    .footer-bottom {
+      padding: 10px 0;
+      font-size: 0.8rem;
+    }
+
+    .footer-bottom .credits {
+      font-size: 0.75rem;
+    }
+
+    .footer-cta .btn {
+      font-size: 0.85rem;
+      padding: 6px 12px;
+    }
+    .text-left {
+  text-align: left;
+  padding-right: 1000px;
+  
+  }
+  </style>
 </head>
 
-<body class="category-page">
+<body class="destinations-page">
 
+  <!-- Header (unchanged) -->
   <header id="header" class="header d-flex align-items-center position-relative">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
@@ -48,19 +218,18 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="category.html" class="active">Category</a></li>
-          <li><a href="blog-details.html">Blog Details</a></li>
-          <li><a href="author-profile.html">Author Profile</a></li>
+          <li><a href="category.html">Destinations</a></li>
+          <li><a href="blog-details.html">Restraunts</a></li>
+          <li><a href="author-profile.html">Travel Tips</a></li>
           <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">About</a></li>
-              <li><a href="category.html" class="active">Category</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
-              <li><a href="author-profile.html">Author Profile</a></li>
+              <li><a href="category.html">Destinations</a></li>
+              <li><a href="blog-details.html">Restraunts</a></li>
+              <li><a href="author-profile.html">Travel Tips</a></li>
               <li><a href="search-results.html">Search Results</a></li>
-              <li><a href="404.html">404 Not Found Page</a></li>
 
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
@@ -89,263 +258,74 @@
   </header>
 
   <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1 class="heading-title">Blog Category</h1>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            </div>
-          </div>
+    <!-- Page Title (larger, no breadcrumbs) -->
+    <div class="page-title" style="background-image: url('assets/img/blog/pexels-dominikagregus-912445.jpg');">
+  <div class="heading">
+    <div class="container">
+      <div class="row d-flex justify-content-left text-left">
+        <div class="col-lg-8">
+          <h1 class="heading-title,text-left" >Popular Destinations in London</h1>
+          <p class="mb-0">Discover iconic landmarks and hidden gems in the heart of London.</p>
         </div>
       </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Category</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Page Title -->
+    </div>
+  </div>
+</div><!-- End Page Title -->
 
     <div class="container">
       <div class="row">
-
-        <div class="col-lg-8">
-
-          <!-- Category Postst Section -->
-          <section id="category-postst" class="category-postst section">
-
+        <div class="col-lg-12">
+          <section id="destinations" class="destinations section">
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="row gy-5">
-
-                <div class="col-lg-6">
-                  <article>
-
-                    <div class="post-img">
-                      <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><a href="blog-details.html">Sorts</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      </ul>
-                    </div>
-
-                    <h2 class="title">
-                      <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-                    </h2>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><a href="blog-details.html">Fashion</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                      </ul>
-                    </div>
-
-                    <h2 class="title">
-                      <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-                    </h2>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><a href="blog-details.html">Laws</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jul 5, 2022</time></a></li>
-                      </ul>
-                    </div>
-
-                    <h2 class="title">
-                      <a href="blog-details.html">Possimus soluta ut id suscipit soluta</a>
-                    </h2>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
-                <div class="col-lg-6">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="assets/img/blog/blog-post-4.webp" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><a href="blog-details.html">Sorts</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Mar 17, 2022</time></a></li>
-                      </ul>
-                    </div>
-
-                    <h2 class="title">
-                      <a href="blog-details.html">Non rem rerum nam cum quo minus exercitationem.</a>
-                    </h2>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
-              </div><!-- End blog posts list -->
-
-            </div>
-
-          </section><!-- /Category Postst Section -->
-
-          <!-- Pagination 2 Section -->
-          <section id="pagination-2" class="pagination-2 section">
-
-            <div class="container">
-              <div class="d-flex justify-content-center">
-                <ul>
-                  <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#" class="active">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li>...</li>
-                  <li><a href="#">10</a></li>
-                  <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
-                </ul>
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://thumbs.dreamstime.com/b/tower-bridge-london-uk-38138737.jpg" alt="Tower Bridge">
+                    <h3>Tower Bridge</h3>
+                    <p>Tower Bridge, a Victorian marvel, spans the Thames with its iconic twin towers. Explore its exhibition to uncover its engineering history or walk the glass walkway for stunning views. A symbol of London, it’s a must-visit for its blend of beauty and heritage, captivating tourists and locals alike. </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://cdn.contexttravel.com/image/upload/w_1500,q_60/v1613555731/blog/7%20Facts%20About%20Big%20Ben%20The%20Celebrated%20London%20Clock%20Tower/pexels-dominika-gregu%C5%A1ov%C3%A1-672532.jpg" alt="Big Ben">
+                    <h3>Big Ben & Houses of Parliament</h3>
+                    <p>Big Ben, the bell within Elizabeth Tower, stands beside the majestic Houses of Parliament. This UNESCO site offers tours through historic chambers, showcasing Gothic architecture. A cornerstone of British politics, it’s a must-see for its rich history and iconic presence in London’s skyline. </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://lh3.googleusercontent.com/YKT9q5GjPt0C3txP3vID40qtyROFbxJd0DwxPYSFagy8n9vMZNiGDwtxMOFi4nw-17P3DHmDerL4b04H0s_nAUukmUbHo6cE8h8PnyvKfkrFrW3ylZrNfiJ2vfawBi5N0FRdOO2cunMc" alt="Buckingham Palace">
+                    <h3>Buckingham Palace</h3>
+                    <p>Buckingham Palace, the British monarch’s official residence, is renowned for its grand State Rooms and the ceremonial Changing of the Guard. Open to visitors in summer, it showcases royal art and history. Located in central London, it’s a key landmark for exploring the city’s regal heritage and vibrant culture.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0e/f2/c9/e9.jpg" alt="Westminster Abbey">
+                    <h3>Westminster Abbey</h3>
+                    <p>Westminster Abbey, a Gothic masterpiece, hosts royal coronations and historic burials, including Elizabeth I. Its stunning stained glass and tranquil cloisters draw history lovers. Guided tours reveal its 1,000-year legacy, making it essential for understanding Britain’s cultural and royal heritage.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://lh4.googleusercontent.com/H9gwuTVahwyK_S3AjGHupmNZAeQ2xgYJiWS-L7OIzNGF2-PvlPSQJ3eFityRtwaSJRoz9Z7p9rj-8iQ25aCC5SgSL_oD8CL0vtr6MBg4xRKTfMgjN7wI6Rm7Fi0J1m1hii32Y7rg1R98hooiyavQqJU" alt="British Museum">
+                    <h3>British Museum</h3>
+                    <p>The British Museum showcases global artifacts like the Rosetta Stone and Egyptian mummies. Free to enter, its vast collection spans centuries, captivating history enthusiasts. The iconic Great Court enhances the experience, making it a must-visit for cultural exploration in London. </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="destination-card">
+                    <img src="https://www.sportstourismnews.com/wp-content/uploads/2021/01/Wembley-Park-Quintain.jpg" alt="Wembley Stadium">
+                    <h3>Wembley Stadium</h3>
+                    <p>Wembley Stadium, a football icon, hosts England matches and FA Cup finals, thrilling enthusiasts. Its striking arch and tours of the pitch and dressing rooms immerse visitors in sport’s legacy. A must-visit for experiencing London’s vibrant football culture and modern stadium grandeur.</p>
+                  </div>
+                </div>
               </div>
             </div>
-
-          </section><!-- /Pagination 2 Section -->
-
+          </section>
         </div>
-
-        <div class="col-lg-4 sidebar">
-
-          <div class="widgets-container">
-
-            <!-- Search Widget -->
-            <div class="search-widget widget-item">
-
-              <h3 class="widget-title">Search</h3>
-              <form action="">
-                <input type="text">
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-              </form>
-
-            </div><!--/Search Widget -->
-
-            <!-- Categories Widget -->
-            <div class="categories-widget widget-item">
-
-              <h3 class="widget-title">Categories</h3>
-              <ul class="mt-3">
-                <li><a href="#">General <span>(25)</span></a></li>
-                <li><a href="#">Lifestyle <span>(12)</span></a></li>
-                <li><a href="#">Travel <span>(5)</span></a></li>
-                <li><a href="#">Design <span>(22)</span></a></li>
-                <li><a href="#">Creative <span>(8)</span></a></li>
-                <li><a href="#">Educaion <span>(14)</span></a></li>
-              </ul>
-
-            </div><!--/Categories Widget -->
-
-            <!-- Recent Posts Widget -->
-            <div class="recent-posts-widget widget-item">
-
-              <h3 class="widget-title">Recent Posts</h3>
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-1.webp" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Nihil blanditiis at in nihil autem</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-2.webp" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Quidem autem et impedit</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-3.webp" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-4.webp" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Laborum corporis quo dara net para</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-5.webp" alt="" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                  <time datetime="2020-01-01">Jan 1, 2020</time>
-                </div>
-              </div><!-- End recent post item-->
-
-            </div><!--/Recent Posts Widget -->
-
-            <!-- Tags Widget -->
-            <div class="tags-widget widget-item">
-
-              <h3 class="widget-title">Tags</h3>
-              <ul>
-                <li><a href="#">App</a></li>
-                <li><a href="#">IT</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Smart</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
-              </ul>
-
-            </div><!--/Tags Widget -->
-
-          </div>
-
-        </div>
-
       </div>
     </div>
-
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -445,12 +425,34 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.page-title .swiper', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        speed: 1000,
+      });
+    });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.page-title .swiper', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+    });
+  });
+</script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
