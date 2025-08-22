@@ -456,7 +456,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background: var(--background-color);
+  background: #fefae0;
   font-size: 15px;
   padding: 80px 0 0;
   position: relative;
