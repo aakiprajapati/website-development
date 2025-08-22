@@ -44,23 +44,31 @@
     }
 
     .header {
-      background-color: var(--primary-color);
+      background-color: var(#FFFFFF);
     }
 
     .header .logo h1,
     .header .navmenu a {
-      color: #ffffff;
+      color: #000000;
     }
 
   .page-title {
   position: relative;
-  min-height: 100vh; /* full screen height */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
+  background-image: url('assets/img/blog/pexels-2693027-10873082.jpg');
+  background-size: 100%;       /* start at normal size */
   background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 10s ease-in-out; /* smooth zoom */
 }
+
+.page-title:hover {
+  background-size: 110%; /* zoom in 10% when hovered */
+}
+
 .page-title .swiper {
   position: absolute;
   top: 0;
@@ -188,6 +196,11 @@
       font-size: 0.85rem;
       padding: 6px 12px;
     }
+    .text-left {
+  text-align: left;
+  padding-right: 1000px;
+  
+  }
   </style>
 </head>
 
@@ -207,17 +220,16 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="category.html">Category</a></li>
-          <li><a href="blog-details.html">Blog Details</a></li>
-          <li><a href="author-profile.html">Author Profile</a></li>
+          <li><a href="category.html">Destinations</a></li>
+          <li><a href="blog-details.html">Restraunts</a></li>
+          <li><a href="author-profile.html">Travel Tips</a></li>
           <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">About</a></li>
-              <li><a href="category.html">Category</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
-              <li><a href="author-profile.html">Author Profile</a></li>
+              <li><a href="category.html">Destinations</a></li>
+              <li><a href="blog-details.html">Restraunts</a></li>
+              <li><a href="author-profile.html">Travel Tips</a></li>
               <li><a href="search-results.html">Search Results</a></li>
-              <li><a href="404.html">404 Not Found Page</a></li>
 
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
@@ -252,7 +264,7 @@
     <div class="container">
       <div class="row d-flex justify-content-left text-left">
         <div class="col-lg-8">
-          <h1 class="heading-title">Popular Destinations in London</h1>
+          <h1 class="heading-title,text-left" >Popular Destinations in London</h1>
           <p class="mb-0">Discover iconic landmarks and hidden gems in the heart of London.</p>
         </div>
       </div>
