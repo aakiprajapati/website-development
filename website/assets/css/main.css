@@ -23,7 +23,7 @@
 :root { 
   --background-color: #fefae0; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #283618; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #322214; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #2986cc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -32,11 +32,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #000000;  /* The default color of the main navmenu links */
-  --nav-hover-color: #2986cc; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #dda15e; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #2986cc; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #dda15e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -1019,7 +1019,7 @@ section,
 
 .blog-hero .swiper-button-prev:hover,
 .blog-hero .swiper-button-next:hover {
-  color: var(--accent-color);
+  color: #DDA15E;
 }
 
 .blog-hero .swiper-wrapper {
@@ -1046,13 +1046,13 @@ section,
 .featured-posts .blog-posts-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: color-mix(in srgb, var(--default-color), transparent 70%);
+  background: color-mix(in srgb, #322214, transparent 70%);
   opacity: 1;
   transition: all 0.3s ease;
 }
 
 .featured-posts .blog-posts-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--accent-color);
+  background: #322214;
   transform: scale(1.2);
 }
 
@@ -1129,7 +1129,7 @@ section,
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
-  border: 3px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+  border: 3px solid color-mix(in srgb, #322214, transparent 80%);
 }
 
 .featured-posts .author-info .author-details {
@@ -1284,7 +1284,7 @@ section,
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 3px solid var(--accent-color);
+  border: 3px solid color-mix(in srgb, #322214, transparent 80%);
 }
 
 .category-section .hero-post .author-info .author-details {
@@ -1311,12 +1311,12 @@ section,
 }
 
 .category-section .hero-post .post-title a {
-  color: var(--heading-color);
+  color: #322214;
   transition: color 0.3s ease;
 }
 
 .category-section .hero-post .post-title a:hover {
-  color: var(--accent-color);
+  color: #b87d4b;
 }
 
 .category-section .hero-post .post-excerpt {
@@ -1354,7 +1354,7 @@ section,
   padding: 20px;
   background: var(--surface-color);
   border-radius: 15px;
-  border-left: 4px solid var(--accent-color);
+  border-left: 4px solid #322214;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1380,8 +1380,8 @@ section,
 
 .category-section .sidebar-post .post-category {
   display: inline-block;
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, #322214, transparent 10%);
+  color: #ffffff;
   padding: 4px 10px;
   border-radius: 15px;
   font-size: 11px;
@@ -1402,7 +1402,7 @@ section,
 }
 
 .category-section .sidebar-post .title a:hover {
-  color: var(--accent-color);
+  color: #b87b4b;
 }
 
 .category-section .sidebar-post .post-meta {
