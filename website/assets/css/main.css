@@ -3907,14 +3907,14 @@ section,
   border-radius: 20px;
   overflow: hidden;
   transition: 0.4s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 2px solid color-mix(in srgb, #322214, transparent 90%);
   height: 100%;
 }
 
 .team .team-member:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px color-mix(in srgb, var(--accent-color), transparent 80%);
-  border-color: var(--accent-color);
+  box-shadow: 0 20px 40px color-mix(in srgb, #b87d4b, transparent 80%);
+  border-color: #b87d4b;
 }
 
 .team .team-member:hover .member-image:before {
@@ -3931,7 +3931,7 @@ section,
 }
 
 .team .team-member:hover .member-info h4 {
-  color: var(--accent-color);
+  color: #b87d4b;
 }
 
 .team .member-image {
@@ -3947,7 +3947,7 @@ section,
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color), transparent 50%) 100%);
+  background: linear-gradient(135deg, #b87d4b 0%, color-mix(in srgb, #b87d4b, transparent 50%) 100%);
   opacity: 0;
   transition: 0.4s;
   z-index: 1;
@@ -3987,7 +3987,7 @@ section,
   height: 42px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #b87d4b;
   border-radius: 50%;
   color: var(--contrast-color);
   font-size: 18px;
@@ -4030,7 +4030,7 @@ section,
   display: block;
   font-size: 15px;
   font-weight: 500;
-  color: var(--accent-color);
+  color: #b87d4b;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
