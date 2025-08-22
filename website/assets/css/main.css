@@ -507,10 +507,10 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background-color: var(--accent-color);
+  background-color:#b87d4b;
   color: var(--contrast-color);
   transform: translateY(-3px);
-  border-color: var(--accent-color);
+  border-color: #b87d4b;
 }
 
 .footer .social-links a i {
@@ -552,11 +552,11 @@ h6 {
   left: 0;
   opacity: 0;
   transition: all 0.3s ease;
-  color: var(--accent-color);
+  color: #b87d4b;
 }
 
 .footer .footer-links-grid ul li a:hover {
-  color: var(--accent-color);
+  color: #b87d4b;
   padding-left: 16px;
 }
 
@@ -586,9 +586,9 @@ h6 {
 }
 
 .footer .footer-cta .btn-outline:hover {
-  background: var(--accent-color);
+  background: #b87d4b;
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: #b87d4b;
   transform: translateY(-2px);
 }
 
