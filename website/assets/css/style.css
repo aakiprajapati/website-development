@@ -491,7 +491,7 @@ ol {
 	display: inline-block;
 	background: white;
 	margin-top: -56px;
-	padding-top: 19px;
+
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-bottom: 30px;
@@ -526,7 +526,7 @@ ol {
 	right: 0;
 	height: 100%;
 	width: 100%;
-	background: #FC0254;
+	background: #322214;
 	content: "";
 	opacity: 0;
 	z-index: -1;
@@ -576,7 +576,7 @@ ol {
 .top-recipe .section-title {
 	width: 470px;
 	text-align: right;
-	background: #FC0254;
+	background: #322214;
 	padding: 18px 0;
 	padding-right: 40px;
 	position: absolute;
@@ -598,7 +598,7 @@ ol {
 	right: 0;
 	top: -157px;
 	width: 80px;
-	background: #FC0254;
+	background: #322214;
 	text-align: center;
 	height: 57px;
 	line-height: 57px;
@@ -644,7 +644,7 @@ ol {
 	right: 0;
 	height: 100%;
 	width: 100%;
-	background: #FC0254;
+	background: #322214;
 	content: "";
 	opacity: 0;
 	z-index: -1;
@@ -670,7 +670,7 @@ ol {
 
 .top-recipe-item .top-recipe-text .cat-name {
 	color: #fff;
-	background: #FC0254;
+	background: #322214;
 	display: inline-block;
 	font-size: 12px;
 	font-weight: 700;
@@ -799,7 +799,7 @@ ol {
 .feature-recipe .section-title {
 	width: 430px;
 	text-align: right;
-	background: #FC0254;
+	
 	padding: 18px 0;
 	padding-right: 40px;
 	position: absolute;
@@ -821,7 +821,7 @@ ol {
 	right: 0;
 	top: -112px;
 	width: 80px;
-	background: #FC0254;
+	
 	text-align: center;
 	height: 57px;
 	line-height: 57px;
@@ -1235,7 +1235,7 @@ ol {
 
 .recipe-item .ri-text .cat-name {
 	color: #fff;
-	background: #FC0254;
+
 	display: inline-block;
 	font-size: 12px;
 	font-weight: 700;
@@ -1297,7 +1297,7 @@ ol {
 .categories-feature-recipe .section-title {
 	width: 430px;
 	text-align: right;
-	background: #FC0254;
+
 	padding: 18px 0;
 	padding-right: 40px;
 	position: absolute;
@@ -1306,7 +1306,7 @@ ol {
 }
 
 .categories-feature-recipe .section-title h5 {
-	color: #fff;
+	color: #322214;
 	font-weight: 700;
 }
 
