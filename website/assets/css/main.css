@@ -1200,7 +1200,7 @@ section,
   display: flex;
   align-items: center;
   font-size: 13px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, #322214, transparent 40%);
 }
 
 .featured-posts .reading-time i {
