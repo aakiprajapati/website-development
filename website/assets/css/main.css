@@ -3477,12 +3477,11 @@ section,
 --------------------------------------------------------------*/
 :root {
     --default-color: #444444;
-    --accent-color: #ff6b6b;
+    --accent-color: #322214;
     --surface-color: #ffffff;
     --heading-color: #2c3e50;
     --contrast-color: #ffffff;
 }
-
 /* Body styling */
 body {
     font-family: 'Poppins', sans-serif;
