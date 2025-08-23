@@ -153,7 +153,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #61686b;
+		color: #322214;
 		font-weight: 800;
 		letter-spacing: 0.075em;
 		line-height: 1em;
@@ -1928,7 +1928,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #a8b0b3;
+		color: #322214;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 	}
@@ -2607,7 +2607,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(144, 144, 144, 0.15);
+			background-color: #322214;
 			color: #61686b !important;
 		}
 
@@ -2657,7 +2657,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cd1a8;
+			background-color: #322214;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -2668,7 +2668,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9ed8b6;
+				background-color: #b87d4b;
 			}
 
 			input[type="submit"].primary:active,
@@ -2763,7 +2763,7 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: #322214;
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2783,7 +2783,7 @@ input, select, textarea {
 		}
 
 			.main .goto-next:hover {
-				background-color: rgba(144, 144, 144, 0.15);
+				background-color: #b87d4b;
 			}
 
 /* Header */

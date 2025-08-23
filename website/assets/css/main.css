@@ -14,17 +14,17 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Montserrat",  sans-serif;
-  --nav-font: "Raleway",  sans-serif;
+  --default-font: "Microsoft YaHei Light",sans-serif;
+  --heading-font: sans-serif;
+  --nav-font: "Microsoft YaHei Light",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #fefae0; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #2986cc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --heading-color: #322214; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #322214; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -32,11 +32,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #000000;  /* The default color of the main navmenu links */
-  --nav-hover-color: #2986cc; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #dda15e; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #2986cc; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #dda15e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -85,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #322214;
   font-family: var(--heading-font);
 }
 
@@ -146,7 +146,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #fefae0;
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -162,7 +162,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -456,7 +456,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background: var(--background-color);
+  background: #fefae0;
   font-size: 15px;
   padding: 80px 0 0;
   position: relative;
@@ -475,7 +475,7 @@ h6 {
   font-family: var(--heading-font);
   font-size: 26px;
   letter-spacing: 0.8px;
-  color: var(--heading-color);
+  color: #322214;
 }
 
 .footer .footer-brand .tagline {
@@ -507,10 +507,10 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color:#b87d4b;
+  color: #322214;
   transform: translateY(-3px);
-  border-color: var(--accent-color);
+  border-color: #b87d4b;
 }
 
 .footer .social-links a i {
@@ -552,11 +552,11 @@ h6 {
   left: 0;
   opacity: 0;
   transition: all 0.3s ease;
-  color: var(--accent-color);
+  color: #322214;
 }
 
 .footer .footer-links-grid ul li a:hover {
-  color: var(--accent-color);
+  color: #b87d4b;
   padding-left: 16px;
 }
 
@@ -586,9 +586,9 @@ h6 {
 }
 
 .footer .footer-cta .btn-outline:hover {
-  background: var(--accent-color);
+  background: #b87d4b;
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: #b87d4b;
   transform: translateY(-2px);
 }
 
@@ -620,7 +620,7 @@ h6 {
 }
 
 .footer .footer-bottom .footer-bottom-content p .sitename {
-  color: var(--heading-color);
+  color: #322214;
   font-weight: 500;
 }
 
@@ -832,19 +832,19 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 450;
   margin-bottom: 20px;
   padding-bottom: 0;
   position: relative;
   z-index: 2;
+  text-align: left;
 }
 
 .section-title span {
   position: absolute;
   top: 4px;
-  color: color-mix(in srgb, var(--heading-color), transparent 95%);
+  color: color-mix(in srgb, #322214, transparent 95%);
   left: 0;
   right: 0;
   z-index: 1;
@@ -917,7 +917,7 @@ section,
 
 .blog-hero .blog-hero-content .category {
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: #322214;
   color: var(--contrast-color);
   padding: 6px 16px;
   border-radius: 4px;
@@ -992,7 +992,7 @@ section,
 }
 
 .blog-hero .blog-hero-content .read-more:hover {
-  color: var(--accent-color);
+  color: #DDA15E;
 }
 
 .blog-hero .blog-hero-content .read-more:hover i {
@@ -1019,7 +1019,7 @@ section,
 
 .blog-hero .swiper-button-prev:hover,
 .blog-hero .swiper-button-next:hover {
-  color: var(--accent-color);
+  color: #DDA15E;
 }
 
 .blog-hero .swiper-wrapper {
@@ -1046,13 +1046,13 @@ section,
 .featured-posts .blog-posts-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background: color-mix(in srgb, var(--default-color), transparent 70%);
+  background: color-mix(in srgb, #322214, transparent 70%);
   opacity: 1;
   transition: all 0.3s ease;
 }
 
 .featured-posts .blog-posts-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--accent-color);
+  background: #322214;
   transform: scale(1.2);
 }
 
@@ -1074,7 +1074,7 @@ section,
 
 .featured-posts .blog-image {
   position: relative;
-  height: 280px;
+  height: 290px;
   overflow: hidden;
 }
 
@@ -1089,14 +1089,14 @@ section,
   position: absolute;
   top: 20px;
   left: 20px;
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #322214;
+  color:#ffffff;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5px;  
   z-index: 2;
 }
 
@@ -1129,7 +1129,7 @@ section,
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
-  border: 3px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+  border: 3px solid color-mix(in srgb, #322214, transparent 80%);
 }
 
 .featured-posts .author-info .author-details {
@@ -1200,7 +1200,7 @@ section,
   display: flex;
   align-items: center;
   font-size: 13px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, #322214, transparent 40%);
 }
 
 .featured-posts .reading-time i {
@@ -1211,8 +1211,8 @@ section,
 .featured-posts .btn-read-more {
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(45deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #000 10%));
-  color: var(--contrast-color);
+  background: linear-gradient(45deg, #322214, color-mix(in srgb, #322214, #000 10%));
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 25px;
   font-size: 13px;
@@ -1233,7 +1233,7 @@ section,
 
 .featured-posts .btn-read-more:hover {
   transform: translateX(5px);
-  background: linear-gradient(45deg, color-mix(in srgb, var(--accent-color), #000 10%), var(--accent-color));
+  background: linear-gradient(45deg, color-mix(in srgb, #b87d48, #000 10%), #4c443c);
   color: var(--contrast-color);
 }
 
@@ -1284,7 +1284,7 @@ section,
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 3px solid var(--accent-color);
+  border: 3px solid color-mix(in srgb, #322214, transparent 80%);
 }
 
 .category-section .hero-post .author-info .author-details {
@@ -1311,12 +1311,12 @@ section,
 }
 
 .category-section .hero-post .post-title a {
-  color: var(--heading-color);
+  color: #322214;
   transition: color 0.3s ease;
 }
 
 .category-section .hero-post .post-title a:hover {
-  color: var(--accent-color);
+  color: #b87d4b;
 }
 
 .category-section .hero-post .post-excerpt {
@@ -1354,7 +1354,7 @@ section,
   padding: 20px;
   background: var(--surface-color);
   border-radius: 15px;
-  border-left: 4px solid var(--accent-color);
+  border-left: 4px solid #322214;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1380,8 +1380,8 @@ section,
 
 .category-section .sidebar-post .post-category {
   display: inline-block;
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, #322214, transparent 10%);
+  color: #ffffff;
   padding: 4px 10px;
   border-radius: 15px;
   font-size: 11px;
@@ -1402,7 +1402,7 @@ section,
 }
 
 .category-section .sidebar-post .title a:hover {
-  color: var(--accent-color);
+  color: #b87b4b;
 }
 
 .category-section .sidebar-post .post-meta {
@@ -1520,7 +1520,7 @@ section,
 
 .category-section .grid-post .read-time {
   font-size: 12px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, #322214, transparent 50%);
   font-weight: 500;
 }
 
@@ -3475,228 +3475,137 @@ section,
 /*--------------------------------------------------------------
 # Author Profile Section
 --------------------------------------------------------------*/
-.author-profile .author-card {
-  background-color: var(--surface-color);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  height: 100%;
+:root {
+    --default-color: #444444;
+    --accent-color: #322214;
+    --surface-color: #ffffff;
+    --heading-color: #2c3e50;
+    --contrast-color: #ffffff;
+}
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fefae0;
+    padding: 1rem;
 }
 
-.author-profile .author-card .author-image {
-  text-align: center;
-  margin-bottom: 1.5rem;
+/* Tip card styling (reused for user tips) */
+.tip-card {
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.author-profile .author-card .author-image img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
+.tip-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.author-profile .author-card .author-info {
-  text-align: center;
+/* Header title styling */
+.header-title {
+    font-family: 'Caveat', cursive;
+    font-size: 3.5rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.author-profile .author-card .author-info h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+/* Submit button styling (kept for other sections) */
+.submit-button {
+    background: linear-gradient(to right, var(--accent-color), #ff8e53);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+    color: var(--contrast-color);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-.author-profile .author-card .author-info .designation {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
+.submit-button:hover {
+    background: linear-gradient(to right, #ff8e53, color-mix(in srgb, var(--accent-color), transparent 15%));
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
-.author-profile .author-card .author-info .author-bio {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+.submit-button:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
-.author-profile .author-card .author-stats {
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 1rem 0;
+/* Custom button style for likes and remove (kept for other potential uses) */
+.btn-outline-pink {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
 }
 
-.author-profile .author-card .author-stats .stat-item h4 {
-  font-size: 1.75rem;
-  margin-bottom: 0.25rem;
-  color: var(--accent-color);
+.btn-outline-pink:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+    color: var(--contrast-color);
 }
 
-.author-profile .author-card .author-stats .stat-item p {
-  font-size: 0.85rem;
-  margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+/* Input styling */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
 }
 
-.author-profile .author-card .social-links {
-  margin-top: 1.5rem;
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px color-mix(in srgb, var(--accent-color), transparent 70%);
+    outline: none;
 }
 
-.author-profile .author-card .social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  border-radius: 50%;
-  margin: 0 0.5rem;
-  transition: all 0.3s ease;
+/* Text color style (kept for other uses) */
+.text-pink-600 {
+    color: var(--accent-color);
 }
-
-.author-profile .author-card .social-links a:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  transform: translateY(-3px);
-}
-
-.author-profile .author-card .social-links a i {
-  font-size: 1rem;
-}
-
-.author-profile .author-content {
-  background-color: var(--surface-color);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  height: 100%;
-}
-
-.author-profile .author-content .content-header {
-  margin-bottom: 1.5rem;
-}
-
-.author-profile .author-content .content-header h3 {
-  font-size: 1.75rem;
+.no-extra-space {
   margin-bottom: 0;
 }
 
-.author-profile .author-content .content-body p {
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas h4 {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
+    .tip-card {
+        max-width: 100%;
+        padding: 0.75rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
+    .submit-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags span {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
+    .form-control {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags span:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.author-profile .author-content .content-body .featured-articles h4 {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card {
-  background-color: var(--background-color);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card:hover {
-  transform: translateY(-5px);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img {
-  height: 200px;
-  overflow: hidden;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img:hover img {
-  transform: scale(1.1);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details {
-  padding: 1.25rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-category {
-  display: inline-block;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 {
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 a {
-  color: var(--heading-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 a:hover {
-  color: var(--accent-color);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta {
-  font-size: 0.85rem;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta span {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 1rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta span i {
-  margin-right: 0.35rem;
-  font-size: 1rem;
-}
-
-@media (max-width: 991.98px) {
-  .author-profile .author-card {
-    margin-bottom: 2rem;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .author-profile .featured-articles .article-card {
-    margin-bottom: 1.5rem;
-  }
+    .btn-outline-pink {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -3907,14 +3816,14 @@ section,
   border-radius: 20px;
   overflow: hidden;
   transition: 0.4s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 2px solid color-mix(in srgb, #322214, transparent 90%);
   height: 100%;
 }
 
 .team .team-member:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px color-mix(in srgb, var(--accent-color), transparent 80%);
-  border-color: var(--accent-color);
+  box-shadow: 0 20px 40px color-mix(in srgb, #b87d4b, transparent 80%);
+  border-color: #b87d4b;
 }
 
 .team .team-member:hover .member-image:before {
@@ -3931,7 +3840,7 @@ section,
 }
 
 .team .team-member:hover .member-info h4 {
-  color: var(--accent-color);
+  color: #b87d4b;
 }
 
 .team .member-image {
@@ -3947,7 +3856,7 @@ section,
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--accent-color) 0%, color-mix(in srgb, var(--accent-color), transparent 50%) 100%);
+  background: linear-gradient(135deg, #b87d4b 0%, color-mix(in srgb, #b87d4b, transparent 50%) 100%);
   opacity: 0;
   transition: 0.4s;
   z-index: 1;
@@ -3987,7 +3896,7 @@ section,
   height: 42px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #b87d4b;
   border-radius: 50%;
   color: var(--contrast-color);
   font-size: 18px;
@@ -4728,4 +4637,5 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+
 }
