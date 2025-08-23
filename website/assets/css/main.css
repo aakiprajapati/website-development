@@ -85,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #322214;
   font-family: var(--heading-font);
 }
 
@@ -475,7 +475,7 @@ h6 {
   font-family: var(--heading-font);
   font-size: 26px;
   letter-spacing: 0.8px;
-  color: var(--heading-color);
+  color: #322214;
 }
 
 .footer .footer-brand .tagline {
@@ -508,7 +508,7 @@ h6 {
 
 .footer .social-links a:hover {
   background-color:#b87d4b;
-  color: var(--contrast-color);
+  color: #322214;
   transform: translateY(-3px);
   border-color: #b87d4b;
 }
@@ -552,7 +552,7 @@ h6 {
   left: 0;
   opacity: 0;
   transition: all 0.3s ease;
-  color: #b87d4b;
+  color: #322214;
 }
 
 .footer .footer-links-grid ul li a:hover {
@@ -620,7 +620,7 @@ h6 {
 }
 
 .footer .footer-bottom .footer-bottom-content p .sitename {
-  color: var(--heading-color);
+  color: #322214;
   font-weight: 500;
 }
 
@@ -844,7 +844,7 @@ section,
 .section-title span {
   position: absolute;
   top: 4px;
-  color: color-mix(in srgb, var(--heading-color), transparent 95%);
+  color: color-mix(in srgb, #322214, transparent 95%);
   left: 0;
   right: 0;
   z-index: 1;
