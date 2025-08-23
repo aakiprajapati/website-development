@@ -4030,7 +4030,7 @@ section,
   display: block;
   font-size: 15px;
   font-weight: 500;
-  color: #b87d4b;
+  color: var(--accent-color);
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
