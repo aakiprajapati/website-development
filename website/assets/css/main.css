@@ -3475,228 +3475,138 @@ section,
 /*--------------------------------------------------------------
 # Author Profile Section
 --------------------------------------------------------------*/
-.author-profile .author-card {
-  background-color: var(--surface-color);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  height: 100%;
+:root {
+    --default-color: #444444;
+    --accent-color: #ff6b6b;
+    --surface-color: #ffffff;
+    --heading-color: #2c3e50;
+    --contrast-color: #ffffff;
 }
 
-.author-profile .author-card .author-image {
-  text-align: center;
-  margin-bottom: 1.5rem;
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fefae0;
+    padding: 1rem;
 }
 
-.author-profile .author-card .author-image img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Tip card styling (reused for user tips) */
+.tip-card {
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.author-profile .author-card .author-info {
-  text-align: center;
+.tip-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.author-profile .author-card .author-info h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+/* Header title styling */
+.header-title {
+    font-family: 'Caveat', cursive;
+    font-size: 3.5rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.author-profile .author-card .author-info .designation {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
+/* Submit button styling (kept for other sections) */
+.submit-button {
+    background: linear-gradient(to right, var(--accent-color), #ff8e53);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+    color: var(--contrast-color);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-.author-profile .author-card .author-info .author-bio {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+.submit-button:hover {
+    background: linear-gradient(to right, #ff8e53, color-mix(in srgb, var(--accent-color), transparent 15%));
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
-.author-profile .author-card .author-stats {
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 1rem 0;
+.submit-button:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
-.author-profile .author-card .author-stats .stat-item h4 {
-  font-size: 1.75rem;
-  margin-bottom: 0.25rem;
-  color: var(--accent-color);
+/* Custom button style for likes and remove (kept for other potential uses) */
+.btn-outline-pink {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
 }
 
-.author-profile .author-card .author-stats .stat-item p {
-  font-size: 0.85rem;
-  margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+.btn-outline-pink:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+    color: var(--contrast-color);
 }
 
-.author-profile .author-card .social-links {
-  margin-top: 1.5rem;
+/* Input styling */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
 }
 
-.author-profile .author-card .social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  border-radius: 50%;
-  margin: 0 0.5rem;
-  transition: all 0.3s ease;
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px color-mix(in srgb, var(--accent-color), transparent 70%);
+    outline: none;
 }
 
-.author-profile .author-card .social-links a:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  transform: translateY(-3px);
+/* Text color style (kept for other uses) */
+.text-pink-600 {
+    color: var(--accent-color);
 }
-
-.author-profile .author-card .social-links a i {
-  font-size: 1rem;
-}
-
-.author-profile .author-content {
-  background-color: var(--surface-color);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  height: 100%;
-}
-
-.author-profile .author-content .content-header {
-  margin-bottom: 1.5rem;
-}
-
-.author-profile .author-content .content-header h3 {
-  font-size: 1.75rem;
+.no-extra-space {
   margin-bottom: 0;
 }
 
-.author-profile .author-content .content-body p {
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas h4 {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
+    .tip-card {
+        max-width: 100%;
+        padding: 0.75rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
+    .submit-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags span {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
+    .form-control {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
 
-.author-profile .author-content .content-body .expertise-areas .tags span:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.author-profile .author-content .content-body .featured-articles h4 {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card {
-  background-color: var(--background-color);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card:hover {
-  transform: translateY(-5px);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img {
-  height: 200px;
-  overflow: hidden;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-img:hover img {
-  transform: scale(1.1);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details {
-  padding: 1.25rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-category {
-  display: inline-block;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 {
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 a {
-  color: var(--heading-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details h5 a:hover {
-  color: var(--accent-color);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta {
-  font-size: 0.85rem;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta span {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 1rem;
-}
-
-.author-profile .author-content .content-body .featured-articles .article-card .article-details .post-meta span i {
-  margin-right: 0.35rem;
-  font-size: 1rem;
-}
-
-@media (max-width: 991.98px) {
-  .author-profile .author-card {
-    margin-bottom: 2rem;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .author-profile .featured-articles .article-card {
-    margin-bottom: 1.5rem;
-  }
+    .btn-outline-pink {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
+    }
 }
 
 /*--------------------------------------------------------------
