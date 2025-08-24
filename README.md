@@ -1,4 +1,4 @@
-<h1 style="font-family: Script MT">London Unlocked</h1>
+<h1 style="font-family: Script MT;">London Unlocked</h1>
 <h2>Project Description</h2>
 <p>"London Unlocked" is an interactive webstite developed with the purpose of guiding our user's who are planning their next tript to London. As it's name suggests, it is a website that unlocks the door to a city full of mesmerizing landmarks, flavorful meals, and a few travel tips to be careful about to make their trip even more better. The website also includes reviews from people who have already made their visit, which helps making our website authentic. It helps save time of the new visitors and allows them to enjoy their time fully. In short the website has been developed with a goal to make our user's trip worth the time and money.</p>
 
@@ -16,3 +16,6 @@
 <p>Arpan Pandey (https://github.com/arpan-pandey)- Contact page, Website Hosting<br>
 <p>Trishala Maharjan (https://github.com/Tichalaa)- Travel Tips page<br>
 <p>Hardik Ghimire (https://github.com/Hardik-Ghimire) - Restaurants page</p>
+<h2>Website Screenshots</h2>
+<h3>Home Page</h3>
+<img src="website/assets/img/website ss/home-hero.jpg">
