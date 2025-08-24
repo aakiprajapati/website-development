@@ -24,7 +24,7 @@
 <p align="center">Top Destinations</p>
 <img src="website/assets/img/website-ss/home-restaurants.jpg">
 <p align="center">Restaurants</p>
-<img src="website/assets/img/website-ss/traveltipsandfooter.jpg" width="700">
+<img src="website/assets/img/website-ss/traveltipsandfooter.jpg" width="900">
 <p align="center">Travel Tips and Footer</p>
 <h3>About Page</h3>
 <img src="website/assets/img/website-ss/about-team.png">
