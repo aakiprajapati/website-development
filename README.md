@@ -19,3 +19,10 @@
 <h2>Website Screenshots</h2>
 <h3>Home Page</h3>
 <img src="website/assets/img/website ss/home-hero.jpg">
+<p align="center">Hero Section</p>
+<img src="website/assets/img/website ss/home-destinations.jpg">
+<p align="center">Top Destinations</p>
+<img src="website/assets/img/website ss/home-restaurants.jpg">
+<p align="center">Restaurants</p>
+<img src="website/assets/img/website ss/traveltipsandfooter.jpg">
+<p align="center">Travel Tips and Footer</p>
