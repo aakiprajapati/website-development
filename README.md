@@ -17,8 +17,18 @@
 <p>Trishala Maharjan (https://github.com/Tichalaa)- Travel Tips page<br>
 <p>Hardik Ghimire (https://github.com/Hardik-Ghimire) - Restaurants page</p>
 <h2>Website Screenshots</h2>
+<h3>Home Page</h3>
+<img src="website/assets/img/website-ss/home-hero.jpg">
+<p align="center">Hero Section</p>
+<img src="website/assets/img/website-ss/home-destinations.jpg">
+<p align="center">Top Destinations</p>
+<img src="website/assets/img/website-ss/home-restaurants.jpg">
+<p align="center">Restaurants</p>
+<img src="website/assets/img/website-ss/traveltipsandfooter.jpg" width="700">
+<p align="center">Travel Tips and Footer</p>
 <h3>About Page</h3>
 <img src="website/assets/img/website-ss/about-team.png">
 <p align="center">Team Members</p>
 <img src="website/assets/img/website-ss/portfolio-Aaki.png">
 <p align="center">Portfolio Demo</p>
+
