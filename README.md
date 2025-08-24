@@ -49,3 +49,5 @@
 <p align="center">Contact Form</p>
 <img src="website/assets/img/website-ss/contact-waystoreach.jpg">
 <p align="center">Ways to Contact</p>
+<h2>Conclusion</h2>
+<p>The website “London Unlocked” is a user-friendly and interactive website developed with the purpose of helping the people planning their next visit to London worth their time and money. By incorporating the experiences from people who’ve made their visit, it makes our website authentic and very useful. It includes the top destination sites, places to dine in and travel tips that help save a lot of time and money. The main goal of London Unlocked is to ensure that the London travel becomes a life time experience, totally memorable and worth it. </p>
