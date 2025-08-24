@@ -37,13 +37,15 @@
 <img src="website/assets/img/website-ss/destinationsites.jpg">
 <p align="center">Top Destination Sites</p>
 <h3>Restaurants Page</h3>
-<img src="website/assets/img/website-ss/bestdining.jpg">
+<img src="website/assets/img/website-ss/bestdining.jpg" width="900">
 <p align="center">Top Dining Spots</p>
-<img src="website/assets/img/website-ss/bestdishes.jpg">
+<img src="website/assets/img/website-ss/bestdishes.jpg" width="900">
 <p align="center">Food Recommendations</p>
 <h3>Travel Tips Page</h3>
 <img src="website/assets/img/website-ss/travel-tips.png" width="900">
 <p align="center">Travel Tips</p>
-<h3>TContact</h3>
+<h3>Contact</h3>
 <img src="website/assets/img/website-ss/contacts.jpg">
 <p align="center">Contact Form</p>
+<img src="website/assets/img/website-ss/contact-waystoreach.jpg">
+<p align="center">Ways to Contact</p>
