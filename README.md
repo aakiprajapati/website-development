@@ -10,9 +10,9 @@
 <p>After cloning the folder is to be opened using editors such as VSCode. Then the folder "website" should be opened, which should load all of the project files</p>
 <h3>Step 3: Open the project</h3>
 <p>To view the website, the index.html file should be opened. For real-time preview, the Live Sever extension in VSCode can be utilized.</p>
-<h2>Project COntributors</h2>
-<p>Aaki Prajapati (https://github.com/aakiprajapati) - Home page, Git setup, design consistency, Project Report, PowerPoint Presentation, README<br>
-<p>Sulav Shrestha () - About page, Destinations page, Project Report, PowerPoint Presentation<br>
-<p>Arpan Pandey ()- Contact page, Website Hosting<br>
-<p>Trishala Maharjan ()- Travel Tips page<br>
-<p>Hardik Ghimire() - Restaurants page</p>
+<h2>Project Contributors</h2>
+<p>Aaki Prajapati (https://github.com/aakiprajapati) - Home page, Git setup, Project Report, PowerPoint Presentation, README<br>
+<p>Sulav Shrestha (https://github.com/Sulav306) - About page, Destinations page, Project Report, PowerPoint Presentation<br>
+<p>Arpan Pandey (https://github.com/arpan-pandey)- Contact page, Website Hosting<br>
+<p>Trishala Maharjan (https://github.com/Tichalaa)- Travel Tips page<br>
+<p>Hardik Ghimire (https://github.com/Hardik-Ghimire) - Restaurants page</p>
