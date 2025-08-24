@@ -4,7 +4,9 @@
 <h1>Setup Instruction</h1>
 <h3>Step 1: Clone the repository</h3>
 <p>The first step to setup the website is to clone the repository to the local machine. In simple terms, cloning refers to making a copy of the remote repository into one's device so that all project files are available to them. For cloning, the following command is to be done:<br>
-git clone https://github.com/aakiprajapati/website-development </p>
-<h3>Step 2: Navigate to the project folder</h3>
-<p>After cloning the folder is to be opened using editors such as VSCode, and should be navigated to the respective folder in order to ensure that you are currently in the correct path. It can be done in the following way:<br>
-cd website </p>
+        git clone https://github.com/aakiprajapati/website-development </p>
+<h3>Step 2: Open project folder</h3>
+<p>After cloning the folder is to be opened using editors such as VSCode. Then the folder "website" should be opened, which should load all of the project files</p>
+<h3>Step 3: Open the project</h3>
+<p>To view the website, the index.html file should be opened. For real-time preview, the Live Sever extension in VSCode can be utilized.</p>
+
