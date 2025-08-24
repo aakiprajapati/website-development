@@ -41,5 +41,7 @@
 <p align="center">Top Dining Spots</p>
 <img src="website/assets/img/website-ss/bestdishes.jpg">
 <p align="center">Food Recommendations</p>
-
+<h3>Travel Tips Page</h3>
+<img src="website/assets/img/website-ss/travel-tips.png">
+<p align="center">Travel Tips</p>
 
