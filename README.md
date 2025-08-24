@@ -42,6 +42,8 @@
 <img src="website/assets/img/website-ss/bestdishes.jpg">
 <p align="center">Food Recommendations</p>
 <h3>Travel Tips Page</h3>
-<img src="website/assets/img/website-ss/travel-tips.png">
+<img src="website/assets/img/website-ss/travel-tips.png" width="900">
 <p align="center">Travel Tips</p>
-
+<h3>TContact</h3>
+<img src="website/assets/img/website-ss/contacts.jpg">
+<p align="center">Contact Form</p>
