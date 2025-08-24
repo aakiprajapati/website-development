@@ -1,4 +1,4 @@
-<h1 style="font-family: Script MT;">London Unlocked</h1>
+<h1>London Unlocked</h1>
 <h2>Project Description</h2>
 <p>"London Unlocked" is an interactive webstite developed with the purpose of guiding our user's who are planning their next tript to London. As it's name suggests, it is a website that unlocks the door to a city full of mesmerizing landmarks, flavorful meals, and a few travel tips to be careful about to make their trip even more better. The website also includes reviews from people who have already made their visit, which helps making our website authentic. It helps save time of the new visitors and allows them to enjoy their time fully. In short the website has been developed with a goal to make our user's trip worth the time and money.</p>
 
@@ -36,5 +36,10 @@
 <p align="center">Hero Section</p>
 <img src="website/assets/img/website-ss/destinationsites.jpg">
 <p align="center">Top Destination Sites</p>
+<h3>Restaurants Page</h3>
+<img src="website/assets/img/website-ss/bestdining.jpg">
+<p align="center">Top Dining Spots</p>
+<img src="website/assets/img/website-ss/bestdishes.jpg">
+<p align="center">Food Recommendations</p>
 
 
