@@ -31,4 +31,10 @@
 <p align="center">Team Members</p>
 <img src="website/assets/img/website-ss/portfolio-Aaki.png">
 <p align="center">Portfolio Demo</p>
+<h3>Destinations Page</h3>
+<img src="website/assets/img/website-ss/destination-hero.jpg">
+<p align="center">Hero Section</p>
+<img src="website/assets/img/website-ss/destinationsites.jpg">
+<p align="center">Top Destination Sites</p>
+
 
